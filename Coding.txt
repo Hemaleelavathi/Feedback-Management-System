@@ -31,7 +31,8 @@ void addFeedback() {
     printf("Enter rating (1-5): ");
     scanf("%d", &f.rating);
 
-    fprintf(fp, "Name: %sMessage: %sRating: %d\n-------------------\n",f.name, f.message, f.rating);
+   fprintf(fp, "Name: %sMessage: %sRating: %d\n-------------------\n",
+            f.name, f.message, f.rating);
 
     fclose(fp);
 
